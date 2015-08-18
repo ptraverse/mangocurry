@@ -47,9 +47,7 @@ var addLots = function(x) {
 		if (typeof y === 'function') {
 			return y(sum);
 		} else {
-			return function(y) {
-				return sum;
-			};
+			return addLots(y);
 		}
 	}
 };
