@@ -66,4 +66,4 @@ In javascript example above, max arguments is still only 2 (?). In JS write an a
 
 Inspired by skill-testing question:
 
-<img src="/question.PNG" />
+<img src="/question.png" />
