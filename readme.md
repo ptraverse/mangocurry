@@ -27,6 +27,7 @@ But First...
 ### What's Currying Then?
 * Currying refers to the proces	s of transforming a function with multiple arity into the same function with less arity. [link](https://medium.com/@kbrainwave/currying-in-javascript-ce6da2d324fe)
 * Currying and closures are related; if a closure is a record storing a function and an environment, then currying is turning a function with a list of parameters, into a function and its environment, i.e. you split the list of parameters into some variables used as parameters to the curried function, and the rest being defined at the same time/before the curried function (which is probably an anonymous curried function?) making up the "environment".
+* [Currying vs partial application](http://stackoverflow.com/questions/218025/what-is-the-difference-between-currying-and-partial-application) Basically partial application allows for 2 or more inputs into anonymous function while a curried function will always only take 1 input.
 
 
 
