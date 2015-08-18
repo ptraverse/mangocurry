@@ -1,14 +1,14 @@
 # Mango Curry
-*[lambda functions](http://stackoverflow.com/questions/16501/what-is-a-lambda-function)
-*[currying in javascript](http://www.crockford.com/javascript/www_svendtofte_com/code/curried_javascript/index.html)
+* [lambda functions](http://stackoverflow.com/questions/16501/what-is-a-lambda-function)
+* [currying in javascript](http://www.crockford.com/javascript/www_svendtofte_com/code/curried_javascript/index.html)
 
 ## In a Nutshell
 
 instead of add(a,b) which is basically only 2 parameters
 
-`add(x)` is only 1 parameter
-but currying enables you to do
-`add(3)(2)(4)(5)...` as much as you want
+	`add(x)` is only 1 parameter but
+	currying enables you to do
+	`add(3)(2)(4)(5)...` as much as you want!
 
 But First...
 
@@ -26,7 +26,7 @@ But First...
 * As far as I can tell, its related to an anonymous function, in that you call it with the sense of creating an "environment" where the lambda will be created so you can figure out what the result should be. Wikipedia: "Operationally, a closure is a record storing a function together with an environment".
 
 ### What's Currying Then?
-* Currying refers to the process of transforming a function with multiple arity into the same function with less arity. [link](https://medium.com/@kbrainwave/currying-in-javascript-ce6da2d324fe)
+* Currying refers to the proces	s of transforming a function with multiple arity into the same function with less arity. [link](https://medium.com/@kbrainwave/currying-in-javascript-ce6da2d324fe)
 * Currying and closures are related; if a closure is a record storing a function and an environment, then currying is turning a function with a list of parameters, into a function and its environment, i.e. you split the list of parameters into some variables used as parameters to the curried function, and the rest being defined at the same time/before the curried function (which is probably an anonymous curried function?) making up the "environment".
 
 
