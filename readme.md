@@ -1,14 +1,13 @@
 # Mango Curry
+
 * [lambda functions](http://stackoverflow.com/questions/16501/what-is-a-lambda-function)
 * [currying in javascript](http://www.crockford.com/javascript/www_svendtofte_com/code/curried_javascript/index.html)
 
 ## In a Nutshell
 
-instead of add(a,b) which is basically only 2 parameters
-
-	`add(x)` is only 1 parameter but
-	currying enables you to do
-	`add(3)(2)(4)(5)...` as much as you want!
+* instead of `add(a,b)` which can only be 2 parameters
+* `add(x)` is only 1 parameter
+* `add(3)(2)(4)(5)...` as much as you want, thanks to (!?)
 
 But First...
 
