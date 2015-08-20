@@ -1,0 +1,22 @@
+{
+  "name": "mangocurry",
+  "version": "1.0.0",
+  "description": "* [lambda functions](http://stackoverflow.com/questions/16501/what-is-a-lambda-function)\r * [currying in javascript](http://www.crockford.com/javascript/www_svendtofte_com/code/curried_javascript/index.html)",
+  "main": "bonus.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ptraverse/mangocurry.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ptraverse/mangocurry/issues"
+  },
+  "homepage": "https://github.com/ptraverse/mangocurry",
+  "dependencies": {
+    "curry": "^1.2.0"
+  }
+}

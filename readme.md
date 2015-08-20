@@ -25,7 +25,7 @@ Mathematical technique where you can bind variables - which can themselves be (m
 * Wikipedia: "Operationally, a closure is a record storing a function together with an environment".
 * Basically it means a function that has an environment of its own. Inside the environment, there is at least one bound variable.
 * In the world of Finite State Machines, a closure would be a symbol that represents a function and its parameter(s), as well as symbols to represent the environment (at least one bound variable outside the function).
-* TLDR; A closure is a function and some pertinent variables that are OUTside of the function.
+* TLDR; A closure is a function and some pertinent variables that are OUTside of the function. The fact that the function can access those variables outside its own local scope is what makes it a closure.
 
 ### What's Currying Then?
 * Currying refers to the process of transforming a function with multiple arity into the same function with less arity. [link](https://medium.com/@kbrainwave/currying-in-javascript-ce6da2d324fe)
@@ -61,6 +61,10 @@ Mathematical technique where you can bind variables - which can themselves be (m
 ### Bonus Question!!
 
 In javascript example above, max arguments is still only 2 (?). In JS write an adder that can take infinitely many arguments. See answer in `bonus.js`.
+
+### Answer
+
+Use `npm install curry` and go from there.
 
 ### Original Question
 
